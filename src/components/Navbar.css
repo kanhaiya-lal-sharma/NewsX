@@ -1,0 +1,42 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar button {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dark {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .dark a {
+    color: lightblue;
+  }
+  
+  .light {
+    background-color: #f5f5f5;
+    color: black;
+  }
+  
+  .light a {
+    color: #333;
+  }
+  
